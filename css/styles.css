@@ -53,10 +53,13 @@ li {
 }
 
 header{
-    background-image: url(../images/ilustracion-banner.jpg);
+    background-image: url(../images/banner.jpg);
     background-size: 100%;
     background-position-y: center;
     background-repeat: no-repeat;
     height: 160px;
     margin-bottom: 20px;
+}
+p span { color: white;
+
 }
