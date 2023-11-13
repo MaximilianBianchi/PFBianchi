@@ -98,6 +98,10 @@ h1{
     font-family: Gabarito;
 }
 
+.comentarios, h6{
+    color: white;
+    font-style: italic;
+}
 
 
 
@@ -125,4 +129,8 @@ h1{
     }
 }
 
-
+@media(width<900px){
+    .carousel{
+        display: none;
+    }
+}
