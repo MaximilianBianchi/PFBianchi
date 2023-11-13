@@ -40,7 +40,7 @@ fieldset{
 header h1{
     font-family: Gabarito;
     color: white;
-    font-size: bold;
+    font-weight: bold;
     
 }
 
@@ -61,5 +61,10 @@ header{
     margin-bottom: 20px;
 }
 p span { color: white;
+         font-weight: bold;
+         font-family: Gabarito;
+}
 
+p {
+    font-family: Gabarito;
 }
