@@ -1,0 +1,62 @@
+body {
+    
+    background-image: linear-gradient(rgb(132, 130, 232),rgb(193, 192, 248));
+    
+    
+}
+
+body footer {
+    margin-top: 100px;
+    color:blue;
+    text-align: center;
+}
+
+.productos{
+    margin: 5px;
+    max-height: 200px; 
+    max-width: 200px;
+      
+}
+
+p.productos{
+    margin-bottom: 30px;
+}
+
+
+input {
+    margin: 2px;
+}
+
+textarea {
+    margin: 2px;
+}
+
+fieldset{   
+    width: 30%;/*para que la caja del fieldset no abarque toda la pagina*/
+}
+
+
+
+header h1{
+    font-family: Gabarito;
+    color: white;
+    font-size: bold;
+    
+}
+
+li a{
+    color: white;
+}
+
+li {
+    color: white;
+}
+
+header{
+    background-image: url(../images/ilustracion-banner.jpg);
+    background-size: 100%;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    height: 160px;
+    margin-bottom: 20px;
+}
