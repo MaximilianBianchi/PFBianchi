@@ -76,6 +76,11 @@ p {
     margin: 10px;
 }
 
-.ladoalado1 {
-    background-color: brown;
+
+
+@media(width<370px){
+    section{
+        font-size: 0.8rem;
+        
+    }
 }
