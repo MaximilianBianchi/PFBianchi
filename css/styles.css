@@ -15,6 +15,7 @@ body footer {
     margin: 5px;
     max-height: 200px; 
     max-width: 200px;
+    border-radius: 5%;
       
 }
 
@@ -67,4 +68,9 @@ p span { color: white;
 
 p {
     font-family: Gabarito;
+}
+
+.imagen_border {
+    border-radius: 5%;
+    margin: 10px;
 }
