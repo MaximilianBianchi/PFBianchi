@@ -103,7 +103,17 @@ h1{
     font-style: italic;
 }
 
+.border{
+    width: 50%;
+    
+}
 
+@media(width<780px){
+    .border{
+        width: 100%;
+        
+    }
+}
 
 @media(width<370px){
     section{
