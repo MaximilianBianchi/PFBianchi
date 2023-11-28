@@ -85,7 +85,8 @@ section {
     font-size: 130%;
     
 }
-   
+
+
  
 .carac {
     font-size: 100%;
@@ -127,6 +128,9 @@ h1{
 
 .border{
     width: 50%;  
+}
+.imagen_border{
+    width: 80%;
 }
 
 /* ---------------media queries----------- */
@@ -185,6 +189,7 @@ h1{
     width: 25%;
     padding-left: 5px;
   }
+  
 }
  
 @media(max-width:350px){.navbar-collapse{
@@ -199,4 +204,17 @@ h1{
     width: 50%;
     padding-left: 5px;
   }
+  .historia{
+    font-size: 70%;
+  }
+  .imagen_border{
+    width: 75%;
+  }
+}
+
+@media(max-width:500px){
+  .historia{
+    font-size: 70%;
+  
+}
 }

@@ -117,6 +117,10 @@ h1 {
   width: 50%;
 }
 
+.imagen_border {
+  width: 80%;
+}
+
 /* ---------------media queries----------- */
 @media (width < 780px) {
   .border {
@@ -178,6 +182,17 @@ h1 {
   .nav-link {
     width: 50%;
     padding-left: 5px;
+  }
+  .historia {
+    font-size: 70%;
+  }
+  .imagen_border {
+    width: 75%;
+  }
+}
+@media (max-width: 500px) {
+  .historia {
+    font-size: 70%;
   }
 }
 
