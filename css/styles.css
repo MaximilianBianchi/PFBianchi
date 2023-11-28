@@ -85,6 +85,10 @@ section span {
   font-family: Gabarito;
 }
 
+.texto_monitor {
+  margin-bottom: 100px;
+}
+
 .bienvenida {
   margin: 20px;
 }
