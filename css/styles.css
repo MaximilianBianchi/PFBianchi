@@ -96,6 +96,7 @@ section span {
 .imagen_border {
   border-radius: 5%;
   margin: 10px;
+  width: 80%;
 }
 
 h5 {
@@ -111,14 +112,6 @@ h1 {
 .comentarios, h6 {
   color: white;
   font-style: italic;
-}
-
-.border {
-  width: 50%;
-}
-
-.imagen_border {
-  width: 80%;
 }
 
 /* ---------------media queries----------- */
@@ -192,6 +185,11 @@ h1 {
 }
 @media (max-width: 500px) {
   .historia {
+    font-size: 70%;
+  }
+}
+@media (max-width: 500px) {
+  form {
     font-size: 70%;
   }
 }
