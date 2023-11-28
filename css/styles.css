@@ -1,22 +1,22 @@
 body {
   background-image: linear-gradient(rgb(132, 130, 232), rgb(193, 192, 248));
 }
-
 body footer {
   margin-top: 100px;
   color: blue;
   text-align: center;
 }
 
-.productos {
-  margin: 5px;
-  max-height: 200px;
-  max-width: 200px;
-  border-radius: 5%;
+.nav-link {
+  background-color: rgb(67, 41, 240);
+  border-radius: 5px;
+  background-color: gradient;
+  border: 2px solid black;
 }
-
-p.productos {
-  margin-bottom: 30px;
+.nav-link:hover {
+  background-color: rgb(67, 41, 237);
+  color: white;
+  border: 2px solid white;
 }
 
 input {
@@ -37,11 +37,14 @@ header h1 {
   font-weight: bold;
 }
 
-li a, .nav-item, .nav-link {
+.nav-item, .nav-link {
   color: white;
 }
 
 li {
+  color: white;
+}
+li a {
   color: white;
 }
 
@@ -53,17 +56,33 @@ li {
   height: 100px;
 }
 
-p span {
+section {
+  font-family: Gabarito;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 120%;
+}
+section span {
   color: white;
   font-weight: bold;
   font-family: Gabarito;
 }
 
-p {
+.productos {
+  margin-bottom: 30px;
+  margin: 5px;
   font-family: Gabarito;
-  margin-top: 20px;
+  border-radius: 5%;
+  font-size: 130%;
+}
+
+.carac {
+  font-size: 100%;
+  margin-bottom: 50px;
   margin-left: 10px;
-  margin-right: 10px;
+  max-width: 330px;
+  font-family: Gabarito;
 }
 
 .bienvenida {
@@ -73,13 +92,6 @@ p {
 .imagen_border {
   border-radius: 5%;
   margin: 10px;
-}
-
-.carac {
-  font-size: 70%;
-  margin-top: -30px;
-  margin-left: 10px;
-  max-width: 200px;
 }
 
 h5 {
@@ -101,6 +113,7 @@ h1 {
   width: 50%;
 }
 
+/* ---------------media queries----------- */
 @media (width < 780px) {
   .border {
     width: 100%;
@@ -109,6 +122,10 @@ h1 {
 @media (width < 370px) {
   section {
     font-size: 0.8rem;
+  }
+  .productos {
+    max-height: 200px;
+    max-width: 200px;
   }
 }
 @media (width > 767px) {
@@ -139,6 +156,24 @@ h1 {
     left: 0;
     width: 100%;
     height: 100%;
+  }
+  .nav-link {
+    width: 25%;
+    padding-left: 5px;
+  }
+}
+@media (max-width: 350px) {
+  .navbar-collapse {
+    background-color: rgba(84, 17, 192, 0.721);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .nav-link {
+    width: 50%;
+    padding-left: 5px;
   }
 }
 

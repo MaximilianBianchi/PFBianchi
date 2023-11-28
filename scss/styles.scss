@@ -1,26 +1,24 @@
+
+
 body {
-    
-    background-image: linear-gradient(rgb(132, 130, 232),rgb(193, 192, 248));
-    
-    
-}
- 
-body footer {
-    margin-top: 100px;
-    color:blue;
-    text-align: center;
+     background-image: linear-gradient(rgb(132, 130, 232),rgb(193, 192, 248));
+    footer {
+        margin-top: 100px;
+        color:blue;
+        text-align: center;
+    }   
 }
 
-.productos{
-    margin: 5px;
-    max-height: 200px; 
-    max-width: 200px;
-    border-radius: 5%;
-      
-}
-
-p.productos{
-    margin-bottom: 30px;
+.nav-link{
+    background-color: rgb(67, 41, 240);
+    border-radius: 5px;
+    background-color: gradient;
+    border: 2px solid black;
+    &:hover{
+        background-color: rgb(67, 41, 237);
+        color: white;
+        border: 2px solid white;
+    }
 }
 
 
@@ -36,21 +34,21 @@ fieldset{
     width: 30%;/*para que la caja del fieldset no abarque toda la pagina*/
 }
 
-
-
 header h1{
     font-family: Gabarito;
     color: white;
     font-weight: bold;
-    
 }
 
-li a, .nav-item, .nav-link{
+.nav-item, .nav-link{
     color: white;
 }
 
 li {
     color: white;
+    a {
+        color: white;
+    }
 }
 
 .navbar{
@@ -60,17 +58,44 @@ li {
     margin-bottom: 20px;
     height: 100px;
 }
-p span { color: white;
-         font-weight: bold;
-         font-family: Gabarito;
-}
 
-p {
+    
+
+section {
     font-family: Gabarito;
     margin-top: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 120%;
+    
+
+        span { color: white;
+            font-weight: bold;
+            font-family: Gabarito;
+            
+        }
+    
+    }
+
+.productos{
+    margin-bottom: 30px;
+    margin: 5px;
+    font-family: Gabarito;
+    border-radius: 5%;
+    font-size: 130%;
 }
+   
+ 
+.carac {
+    font-size: 100%;
+    //margin-top: -10px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    max-width: 330px;
+    font-family: Gabarito;
+            
+}
+
 
 .bienvenida{
     margin: 20px;
@@ -79,13 +104,6 @@ p {
 .imagen_border {
     border-radius: 5%;
     margin: 10px;
-}
-
-.carac{
-    font-size: 70%;
-    margin-top: -30px;
-    margin-left: 10px;
-    max-width: 200px;
 }
 
 h5{
@@ -104,10 +122,10 @@ h1{
 }
 
 .border{
-    width: 50%;
-    
+    width: 50%;  
 }
 
+/* ---------------media queries----------- */
 @media(width<780px){
     .border{
         width: 100%;
@@ -120,6 +138,12 @@ h1{
         font-size: 0.8rem;
         
     }
+    .productos{
+        
+        max-height: 200px; 
+        max-width: 200px;
+        
+        }
 }
 
 @media(width>767px){
@@ -153,5 +177,22 @@ h1{
     width: 100%;
     height: 100%;     
   } 
+  .nav-link{
+    width: 25%;
+    padding-left: 5px;
+  }
 }
  
+@media(max-width:350px){.navbar-collapse{
+    background-color: rgba(84, 17, 192, 0.721);
+       position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;     
+  } 
+  .nav-link{
+    width: 50%;
+    padding-left: 5px;
+  }
+}
