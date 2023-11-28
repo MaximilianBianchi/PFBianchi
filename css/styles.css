@@ -19,6 +19,11 @@ body footer {
   border: 2px solid white;
 }
 
+.icono-barra {
+  width: 40px;
+  padding: 2px;
+}
+
 input {
   margin: 2px;
 }

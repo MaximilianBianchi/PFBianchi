@@ -1,5 +1,4 @@
 
-
 body {
      background-image: linear-gradient(rgb(132, 130, 232),rgb(193, 192, 248));
     footer {
@@ -20,6 +19,13 @@ body {
         border: 2px solid white;
     }
 }
+
+.icono-barra{
+    width: 40px;
+    padding: 2px; 
+    
+}
+
 
 
 input {
@@ -59,22 +65,16 @@ li {
     height: 100px;
 }
 
-    
-
 section {
     font-family: Gabarito;
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
     font-size: 120%;
-    
-
         span { color: white;
             font-weight: bold;
             font-family: Gabarito;
-            
         }
-    
     }
 
 .productos{
@@ -83,10 +83,7 @@ section {
     font-family: Gabarito;
     border-radius: 5%;
     font-size: 130%;
-    
 }
-
-
  
 .carac {
     font-size: 100%;
@@ -95,7 +92,6 @@ section {
     margin-left: 10px;
     max-width: 330px;
     font-family: Gabarito;
-            
 }
 
 .texto_monitor{
@@ -127,9 +123,6 @@ h1{
     font-style: italic;
 }
 
-
-
-
 /* ---------------media queries----------- */
 @media(width<780px){
     .border{
@@ -141,16 +134,11 @@ h1{
 @media(width<370px){
     section{
         font-size: 0.8rem;
-        
     }
     .productos{
-        
         max-height: 200px; 
         max-width: 200px;
-        
-        }
-    
-            
+            }
 }
 
 @media(width>767px){
@@ -188,7 +176,6 @@ h1{
     width: 25%;
     padding-left: 5px;
   }
-  
 }
  
 @media(max-width:350px){.navbar-collapse{
@@ -209,19 +196,16 @@ h1{
   .imagen_border{
     width: 75%;
   }
-  
 }
 
 @media(max-width:500px){
   .historia{
     font-size: 70%;
-  
 }
 }
 
 @media(max-width:500px){
     form{
       font-size: 70%;
-    
-  }
-  }
+}
+}
