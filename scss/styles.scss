@@ -36,7 +36,7 @@ body {
 
 
             }
-
+            
     }   
 }
 /*Mixins*/
@@ -154,6 +154,7 @@ section {
     border-radius: 5%;
     margin: 10px;
     width: 80%;
+    margin-top: 50px;
 }
 
 h5{
@@ -165,6 +166,7 @@ h1{
     margin-left: 20px;
     font-family: $font-gabarito;
 }
+
 
 .comentarios, h6{
     color:$white;
@@ -190,6 +192,7 @@ h6{
     }
     .imagen_border{
         width: 60%;
+        margin-top: 20px;
       }
 }
 
@@ -225,6 +228,8 @@ h6{
     .carousel{
         display: none;
     }
+    
+
 }
    
 @media(max-width:991px){.navbar-collapse{
@@ -281,7 +286,8 @@ form{
 @media(max-width:767px){
     
       .imagen_border{
-          width: 60%;
+          width: 70%;
     
   }
 }
+

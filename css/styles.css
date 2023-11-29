@@ -137,6 +137,7 @@ section span {
   border-radius: 5%;
   margin: 10px;
   width: 80%;
+  margin-top: 50px;
 }
 
 h5 {
@@ -172,6 +173,7 @@ h6 {
   }
   .imagen_border {
     width: 60%;
+    margin-top: 20px;
   }
 }
 @media (width < 370px) {
@@ -256,7 +258,7 @@ h6 {
 }
 @media (max-width: 767px) {
   .imagen_border {
-    width: 60%;
+    width: 70%;
   }
 }
 
