@@ -107,6 +107,10 @@ section span {
   font-family: Gabarito;
   border-radius: 5%;
   font-size: 130%;
+  transition: 0.5s all ease-in-out;
+}
+.productos:hover {
+  transform: scale(1.1);
 }
 
 .carac {
@@ -119,6 +123,10 @@ section span {
 
 .texto_monitor {
   margin-bottom: 100px;
+}
+
+.historia {
+  font-size: 90%;
 }
 
 .bienvenida {
@@ -144,12 +152,26 @@ h1 {
 .comentarios, h6 {
   color: rgb(255, 255, 255);
   font-style: italic;
+  font-size: 120%;
+}
+
+h4 {
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+h6 {
+  margin-bottom: 10px;
+  font-size: 140%;
 }
 
 /* ---------------media queries----------- */
-@media (width < 780px) {
+@media (width < 768px) {
   .border {
     width: 100%;
+  }
+  .imagen_border {
+    width: 60%;
   }
 }
 @media (width < 370px) {
@@ -194,6 +216,12 @@ h1 {
     width: 25%;
     padding-left: 5px;
   }
+  .historia {
+    font-size: 70%;
+  }
+  .imagen_border {
+    width: 80%;
+  }
 }
 @media (max-width: 350px) {
   .navbar-collapse {
@@ -209,18 +237,26 @@ h1 {
     padding-left: 5px;
   }
   .historia {
-    font-size: 70%;
+    font-size: 60%;
   }
   .imagen_border {
-    width: 75%;
+    width: 50%;
   }
 }
 @media (max-width: 500px) {
   .historia {
     font-size: 70%;
   }
+  .imagen_border {
+    width: 60%;
+  }
   form {
     font-size: 70%;
+  }
+}
+@media (max-width: 767px) {
+  .imagen_border {
+    width: 60%;
   }
 }
 
