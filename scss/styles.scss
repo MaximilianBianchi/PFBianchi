@@ -1,3 +1,5 @@
+/*Imports*/
+@import "./variables";
 
 body {
      background-image: linear-gradient(rgb(132, 130, 232),rgb(193, 192, 248));
@@ -7,16 +9,25 @@ body {
         text-align: center;
     }   
 }
+/*Mixins*/
+@mixin ancho-alto($width, $height) {
+    height: $height;
+    width: $width;
+ }
 
+ @mixin top-left($top,$left){
+    top:$top;
+    left:$left;
+}
 .nav-link{
-    background-color: rgb(67, 41, 240);
+    background-color: $bg-violet-dark;
     border-radius: 5px;
     background-color: gradient;
     border: 2px solid black;
     &:hover{
-        background-color: rgb(67, 41, 237);
-        color: white;
-        border: 2px solid white;
+        background-color: $bg-violet-light;
+        color: $white;
+        border: 2px solid $white;
     }
 }
 
@@ -41,20 +52,20 @@ fieldset{
 }
 
 header h1{
-    font-family: Gabarito;
+    font-family: $font-gabarito;
     color: white;
     font-weight: bold;
-    
+
 }
 
 .nav-item, .nav-link{
-    color: white;
+    color: $white;
 }
 
 li {
-    color: white;
+    color:$white;
     a {
-        color: white;
+        color:$white;
     }
 }
 
@@ -67,32 +78,31 @@ li {
 }
 
 section {
-    font-family: Gabarito;
+    font-family: $font-gabarito;
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
     font-size: 120%;
-        span { color: white;
+        span { color:$white;
             font-weight: bold;
-            font-family: Gabarito;
+            font-family: $font-gabarito;
         }
     }
 
 .productos{
     margin-bottom: 30px;
     margin: 5px;
-    font-family: Gabarito;
+    font-family: $font-gabarito;
     border-radius: 5%;
     font-size: 130%;
 }
  
 .carac {
     font-size: 100%;
-    //margin-top: -10px;
     margin-bottom: 50px;
     margin-left: 10px;
     max-width: 330px;
-    font-family: Gabarito;
+    font-family: $font-gabarito;
 }
 
 .texto_monitor{
@@ -111,16 +121,16 @@ section {
 
 h5{
     margin-left: 30px;
-    font-family: Gabarito;
+    font-family: $font-gabarito;
 }
 
 h1{
     margin-left: 20px;
-    font-family: Gabarito;
+    font-family: $font-gabarito;
 }
 
 .comentarios, h6{
-    color: white;
+    color:$white;
     font-style: italic;
 }
 
@@ -155,7 +165,7 @@ h1{
     h1{
         margin-left: 20px;
         margin-right: 40px;
-        font-family: Gabarito;
+        font-family: $font-gabarito;
     }
 }
 
@@ -168,10 +178,9 @@ h1{
 @media(max-width:991px){.navbar-collapse{
     background-color: rgba(84, 17, 192, 0.721);
        position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;     
+    
+    @include top-left(0,0);
+    @include ancho-alto(100%,100%);     
   } 
   .nav-link{
     width: 25%;
@@ -182,10 +191,9 @@ h1{
 @media(max-width:350px){.navbar-collapse{
     background-color: rgba(84, 17, 192, 0.721);
        position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;     
+    
+    @include top-left(0,0);
+    @include ancho-alto(100%,100%);     
   } 
   .nav-link{
     width: 50%;
@@ -203,10 +211,7 @@ h1{
   .historia{
     font-size: 70%;
 }
-}
-
-@media(max-width:500px){
-    form{
-      font-size: 70%;
+form{
+    font-size: 70%;
 }
 }
