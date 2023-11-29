@@ -11,8 +11,26 @@ body {
 }
 body footer {
   margin-top: 100px;
-  color: blue;
+  color: rgb(255, 255, 255);
   text-align: center;
+  font-family: Gabarito;
+  background-color: rgb(27, 24, 24);
+  height: 280px;
+  padding-top: 20px;
+}
+body footer li {
+  list-style-type: none;
+  padding-top: 5px;
+}
+body footer img {
+  width: 30px;
+  padding: 2px;
+}
+body footer .logo {
+  text-align: start;
+}
+body footer a {
+  text-decoration: none;
 }
 
 /*Mixins*/
@@ -47,7 +65,7 @@ fieldset {
 
 header h1 {
   font-family: Gabarito;
-  color: white;
+  color: rgb(255, 255, 255);
   font-weight: bold;
 }
 

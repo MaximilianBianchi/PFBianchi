@@ -5,8 +5,38 @@ body {
      background-image: linear-gradient(rgb(132, 130, 232),rgb(193, 192, 248));
     footer {
         margin-top: 100px;
-        color:blue;
+        color:$white;
         text-align: center;
+        font-family: $font-gabarito;
+        
+
+        background-color: rgb(27, 24, 24);
+        height:280px;
+            padding-top: 20px;
+
+        li{
+            
+            list-style-type: none;
+            padding-top: 5px;
+
+        }
+        img{
+            width: 30px;
+            padding: 2px;
+        }
+            .logo{
+                text-align: start;
+                
+
+                
+            }
+            a{
+                text-decoration: none;
+                
+
+
+            }
+
     }   
 }
 /*Mixins*/
@@ -53,7 +83,7 @@ fieldset{
 
 header h1{
     font-family: $font-gabarito;
-    color: white;
+    color: $white;
     font-weight: bold;
 
 }
