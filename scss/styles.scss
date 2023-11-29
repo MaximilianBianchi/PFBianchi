@@ -8,35 +8,24 @@ body {
         color:$white;
         text-align: center;
         font-family: $font-gabarito;
-        
-
         background-color: rgb(27, 24, 24);
         height:280px;
-            padding-top: 20px;
+        padding-top: 20px;
 
         li{
-            
             list-style-type: none;
             padding-top: 5px;
-
-        }
+            }
         img{
             width: 30px;
             padding: 2px;
-        }
+            }
             .logo{
                 text-align: start;
-                
-
-                
             }
             a{
                 text-decoration: none;
-                
-
-
             }
-            
     }   
 }
 /*Mixins*/
@@ -64,10 +53,7 @@ body {
 .icono-barra{
     width: 40px;
     padding: 2px; 
-    
 }
-
-
 
 input {
     margin: 2px;
@@ -85,13 +71,11 @@ header h1{
     font-family: $font-gabarito;
     color: $white;
     font-weight: bold;
-
 }
 
 .nav-item, .nav-link{
     color: $white;
 }
-
 li {
     color:$white;
     a {
@@ -167,7 +151,6 @@ h1{
     font-family: $font-gabarito;
 }
 
-
 .comentarios, h6{
     color:$white;
     font-style: italic;
@@ -209,8 +192,7 @@ h6{
 @media(width>767px){
     .nav-item{
         padding: 15px;  
-    }
-    
+    }   
 }
 
 @media(width>1080px){
@@ -228,14 +210,11 @@ h6{
     .carousel{
         display: none;
     }
-    
-
 }
    
 @media(max-width:991px){.navbar-collapse{
     background-color: rgba(84, 17, 192, 0.721);
-       position: fixed;
-    
+    position: fixed;    
     @include top-left(0,0);
     @include ancho-alto(100%,100%);     
   } 
@@ -253,8 +232,7 @@ h6{
  
 @media(max-width:350px){.navbar-collapse{
     background-color: rgba(84, 17, 192, 0.721);
-       position: fixed;
-    
+    position: fixed;    
     @include top-left(0,0);
     @include ancho-alto(100%,100%);     
   } 
@@ -271,23 +249,20 @@ h6{
 }
 
 @media(max-width:500px){
-  .historia{
-    font-size: 70%;
-}
+    .historia{
+        font-size: 70%;
+    }
     .imagen_border{
         width: 60%;
-      }
-
-form{
-    font-size: 70%;
-}
+    }
+    form{
+        font-size: 70%;
+    }
 }
 
 @media(max-width:767px){
-    
-      .imagen_border{
+        .imagen_border{
           width: 70%;
-    
-  }
+        }
 }
 
