@@ -257,5 +257,15 @@ h6 {
     width: 70%;
   }
 }
+@media (width > 1380px) {
+  .navbar {
+    background-size: 100%;
+  }
+}
+@media (width > 1580px) {
+  .historia {
+    font-size: 150%;
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,6 +1,8 @@
 /*Imports*/
 @import "./variables";
 
+
+
 body {
      background-image: linear-gradient(rgb(132, 130, 232),rgb(193, 192, 248));
     footer {
@@ -89,6 +91,8 @@ li {
     background-repeat: no-repeat;
     margin-bottom: 20px;
     height: 100px;
+    
+    
 }
 
 section {
@@ -266,3 +270,18 @@ h6{
         }
 }
 
+@media(width>1380px){
+.navbar{
+    background-size: 100%;
+   
+}
+}
+
+@media(width>1580px){
+    
+    .historia{
+        font-size: 150%;
+    }
+    }
+    
+    
