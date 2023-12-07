@@ -188,12 +188,17 @@ h6{
     font-size: 140%;
 }
 
+.border_form{
+    border: 1px solid white;
+    padding: 10px;
+    width: 400px;
+}
+
+
+
 /* ---------------media queries----------- */
 @media(width<768px){
-    .border{
-        width: 80%;
-        
-    }
+    
     .imagen_border{
         width: 60%;
         margin-top: 20px;
@@ -253,6 +258,7 @@ h6{
   .img_nosotros{
     width: 80%;
 }
+
 }
  
 @media(max-width:350px){.navbar-collapse{
@@ -285,6 +291,9 @@ h6{
     form{
         font-size: 70%;
     }
+    .border_form{
+        width: 300px;
+    }
 }
 
 @media(max-width:767px){
@@ -297,6 +306,21 @@ h6{
 .navbar{
     background-size: 100%;
    
+}
+
+}   
+
+
+@media(width>1200px){
+.border_form{
+    width: 600px;
+}
+fieldset{
+    font-size: 150%;
+}
+legend{
+    font-size: 150%;
+    margin-bottom: 30px;
 }
 }
 
