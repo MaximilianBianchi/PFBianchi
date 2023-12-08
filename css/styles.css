@@ -247,12 +247,12 @@ h6 {
     display: none;
   }
   .border_form {
-    width: 430px;
+    width: 65vw;
     padding: 20px;
     margin-left: 7%;
   }
   .grid-item {
-    margin-left: 20%;
+    margin-left: 10vw;
   }
 }
 @media (max-width: 350px) {
@@ -282,7 +282,7 @@ h6 {
     font-size: 70%;
   }
   .border_form {
-    width: 300px;
+    width: 280px;
     margin-left: -5%;
   }
 }
