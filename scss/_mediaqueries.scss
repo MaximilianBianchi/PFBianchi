@@ -69,6 +69,11 @@
         padding: 20px;
         margin-left: 7%;
      }
+     .grid-item{
+        margin-left: 20%;
+        
+
+     }
 }
 
 @media(max-width:350px){.navbar-collapse{
@@ -141,21 +146,24 @@ legend{
         font-size: 160%;
         line-height: 3rem;
     }
+    .grid-item{
 
+        margin: 5%;
+    }
 
-    .border_form{
-        width: 700px;
-        padding: 20px;
-        margin-left: 5%;
-    }
-    fieldset{
-        font-size: 180%;
-    }
-    legend{
-        font-size: 180%;
-        margin-bottom: 40px;
-    }
-    .imagen_border {
-       width: 45em;
-    }
+    // .border_form{
+    //     width: 700px;
+    //     padding: 20px;
+    //     margin-left: 5%;
+    // }
+    // fieldset{
+    //     font-size: 180%;
+    // }
+    // legend{
+    //     font-size: 180%;
+    //     margin-bottom: 40px;
+    // }
+    // .imagen_border {
+    //    width: 45em;
+    // }
     }

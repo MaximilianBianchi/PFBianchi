@@ -11,7 +11,7 @@ body footer {
   text-align: center;
   font-family: Gabarito;
   background-color: rgb(27, 24, 24);
-  height: 280px;
+  height: 320px;
   padding-top: 20px;
 }
 body footer li {
@@ -251,6 +251,9 @@ h6 {
     padding: 20px;
     margin-left: 7%;
   }
+  .grid-item {
+    margin-left: 20%;
+  }
 }
 @media (max-width: 350px) {
   .navbar-collapse {
@@ -313,20 +316,8 @@ h6 {
     font-size: 160%;
     line-height: 3rem;
   }
-  .border_form {
-    width: 700px;
-    padding: 20px;
-    margin-left: 5%;
-  }
-  fieldset {
-    font-size: 180%;
-  }
-  legend {
-    font-size: 180%;
-    margin-bottom: 40px;
-  }
-  .imagen_border {
-    width: 45em;
+  .grid-item {
+    margin: 5%;
   }
 }
 
