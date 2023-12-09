@@ -12,6 +12,9 @@
     .nav-item{
         padding: 15px;  
     }   
+    .historia{
+        margin-top: 5%;
+    }
 }
 
 @media(width>1080px){
@@ -43,6 +46,14 @@
     .grid-item{
         margin: 5%;
     }
+
+    .titulo-comentarios{
+        font-size: 160%;
+    }
+    .comentarios{
+        font-size: 140%;
+    }
+
 }
 
 @media(width<900px){
@@ -63,11 +74,9 @@
         padding-left: 5px;
     }
     .historia{
-        font-size: 120%;
+        font-size: 110%;
     }
-    .img_nosotros{
-        width: 80%;
-    }
+    
     .border_form{
         width: 330px;
         margin-left: 5%;
@@ -85,6 +94,9 @@
     }
     .grid-item{
         margin-left: 10vw;
+    }
+    .img_nosotros{
+        width: 70%;
     }
 }
 
@@ -150,6 +162,13 @@
     .grid-item{
         margin: 5%;
     }
+
+    .img_nosotros{
+        width: 50%;
+    }
+
+
+    
 }
 
 @media(width>1380px){
@@ -164,12 +183,25 @@
     .grid-item{
         margin: 5%;
     }
+
+    .titulo-comentarios{
+        font-size: 180%;
+        
+        
+    }
+    .comentarios{
+        font-size: 160%;
+        
+    }
+    .img_nosotros{
+        width: 45%;
+    }
 } 
 
 @media(width>1580px){
     
     .historia{
-        font-size: 160%;
+        font-size: 130%;
         line-height: 3rem;
     }
     .grid-item{
@@ -179,6 +211,9 @@
 
     .border_form{
         margin-left: 35%;
+    }
+    .img_nosotros{
+        width: 40%;
     }
     
 }

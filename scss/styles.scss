@@ -99,9 +99,11 @@ li {
 
 section {
     font-family: $font-gabarito;
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-bottom: 4%;
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right:10%;
+    line-height: 2.5rem;
     font-size: 120%;
         span { color:$white;
             font-weight: bold;
@@ -109,6 +111,7 @@ section {
         }
     }
 
+    
 .productos{
     margin-bottom: 30px;
     margin: 5px;
@@ -119,6 +122,7 @@ section {
     &:hover{
         transform: scale(1.1);
     }
+    
 }
  
 .carac {
@@ -134,14 +138,19 @@ section {
 }
 
 .historia{
-    font-size: 130%;
+    font-size: 110%;
     margin: 40px;
     line-height: 2.5rem;
     margin-left: 10%;
     margin-right:10%;
+    font-family: $font-gabarito;
 }
 .bienvenida{
-    margin: 20px;
+    margin-bottom: 4%;
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right:10%;
+    line-height: 2.5rem;
 }
 
 .imagen_border {
@@ -152,11 +161,12 @@ section {
 
 
 
+
 .img_nosotros{
     border-radius: 5%;
     
     margin-top: 50px;
-    width: 65%;
+    width: 50%;
 }
 
 .nosotros{
@@ -165,7 +175,13 @@ section {
 }
 
 h5{
-    margin-left: 30px;
+    font-size: 140%;
+    font-style: italic;
+    text-decoration:solid;
+    text-decoration: underline;
+    margin-left: 10%;
+    margin-bottom: 50px;
+    margin-top: -25px;
     font-family: $font-gabarito;
 }
 
@@ -181,8 +197,9 @@ h1{
 }
 
 h4{
-    margin-top: 5px;
+    margin-top: 15px;
     margin-left: 10px;
+    margin-bottom: 20px;
 }
 
 h6{
@@ -217,6 +234,8 @@ h6{
 }
 }
 }
+
+
 
 /* ---------------media queries----------- */
 

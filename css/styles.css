@@ -86,9 +86,11 @@ li a {
 
 section {
   font-family: Gabarito;
-  margin-top: 20px;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-bottom: 4%;
+  margin-top: 3%;
+  margin-left: 10%;
+  margin-right: 10%;
+  line-height: 2.5rem;
   font-size: 120%;
 }
 section span {
@@ -122,15 +124,20 @@ section span {
 }
 
 .historia {
-  font-size: 130%;
+  font-size: 110%;
   margin: 40px;
   line-height: 2.5rem;
   margin-left: 10%;
   margin-right: 10%;
+  font-family: Gabarito;
 }
 
 .bienvenida {
-  margin: 20px;
+  margin-bottom: 4%;
+  margin-top: 3%;
+  margin-left: 10%;
+  margin-right: 10%;
+  line-height: 2.5rem;
 }
 
 .imagen_border {
@@ -142,7 +149,7 @@ section span {
 .img_nosotros {
   border-radius: 5%;
   margin-top: 50px;
-  width: 65%;
+  width: 50%;
 }
 
 .nosotros {
@@ -150,7 +157,13 @@ section span {
 }
 
 h5 {
-  margin-left: 30px;
+  font-size: 140%;
+  font-style: italic;
+  text-decoration: solid;
+  text-decoration: underline;
+  margin-left: 10%;
+  margin-bottom: 50px;
+  margin-top: -25px;
   font-family: Gabarito;
 }
 
@@ -166,8 +179,9 @@ h1 {
 }
 
 h4 {
-  margin-top: 5px;
+  margin-top: 15px;
   margin-left: 10px;
+  margin-bottom: 20px;
 }
 
 h6 {
@@ -210,6 +224,9 @@ h6 {
   .nav-item {
     padding: 15px;
   }
+  .historia {
+    margin-top: 5%;
+  }
 }
 @media (width > 1080px) {
   .nav-item {
@@ -238,6 +255,12 @@ h6 {
   .grid-item {
     margin: 5%;
   }
+  .titulo-comentarios {
+    font-size: 160%;
+  }
+  .comentarios {
+    font-size: 140%;
+  }
 }
 @media (width < 900px) {
   .carousel {
@@ -258,10 +281,7 @@ h6 {
     padding-left: 5px;
   }
   .historia {
-    font-size: 120%;
-  }
-  .img_nosotros {
-    width: 80%;
+    font-size: 110%;
   }
   .border_form {
     width: 330px;
@@ -279,6 +299,9 @@ h6 {
   }
   .grid-item {
     margin-left: 10vw;
+  }
+  .img_nosotros {
+    width: 70%;
   }
 }
 @media (max-width: 350px) {
@@ -340,6 +363,9 @@ h6 {
   .grid-item {
     margin: 5%;
   }
+  .img_nosotros {
+    width: 50%;
+  }
 }
 @media (width > 1380px) {
   .navbar {
@@ -352,10 +378,19 @@ h6 {
   .grid-item {
     margin: 5%;
   }
+  .titulo-comentarios {
+    font-size: 180%;
+  }
+  .comentarios {
+    font-size: 160%;
+  }
+  .img_nosotros {
+    width: 45%;
+  }
 }
 @media (width > 1580px) {
   .historia {
-    font-size: 160%;
+    font-size: 130%;
     line-height: 3rem;
   }
   .grid-item {
@@ -364,6 +399,9 @@ h6 {
   }
   .border_form {
     margin-left: 35%;
+  }
+  .img_nosotros {
+    width: 40%;
   }
 }
 @media (width > 500px) {
