@@ -6,13 +6,14 @@ body {
   background-image: linear-gradient(rgb(132, 130, 232), rgb(193, 192, 248));
 }
 body footer {
-  margin-top: 100px;
   color: rgb(255, 255, 255);
   text-align: center;
   font-family: Gabarito;
   background-color: rgb(27, 24, 24);
   height: 320px;
   padding-top: 20px;
+  margin-bottom: 0px;
+  min-height: 100vh;
 }
 body footer li {
   list-style-type: none;
@@ -56,7 +57,7 @@ textarea {
 }
 
 fieldset {
-  width: 30%; /*para que la caja del fieldset no abarque toda la pagina*/
+  width: 30%;
 }
 
 header h1 {
@@ -150,6 +151,7 @@ section span {
   border-radius: 5%;
   margin-top: 50px;
   width: 50%;
+  margin-bottom: 80px;
 }
 
 .nosotros {
@@ -204,10 +206,15 @@ h6 {
 
 .unouno .mapouter {
   background-color: transparent;
+  margin-bottom: 80px;
 }
 .unouno .mapouter .gmap_canvas {
   margin: 30px;
   border-radius: 5%;
+}
+
+.carousel-inner {
+  margin-bottom: 5%;
 }
 
 /* ---------------media queries----------- */
@@ -366,6 +373,9 @@ h6 {
   .img_nosotros {
     width: 50%;
   }
+  .carousel-caption {
+    margin-bottom: 2%;
+  }
 }
 @media (width > 1380px) {
   .navbar {
@@ -387,6 +397,9 @@ h6 {
   .img_nosotros {
     width: 45%;
   }
+  .carousel-caption {
+    margin-bottom: 3%;
+  }
 }
 @media (width > 1580px) {
   .historia {
@@ -402,6 +415,9 @@ h6 {
   }
   .img_nosotros {
     width: 40%;
+  }
+  .carousel-caption {
+    margin-bottom: 5%;
   }
 }
 @media (width > 500px) {

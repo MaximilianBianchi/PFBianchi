@@ -26,11 +26,9 @@
         margin-right: 40px;
         font-family: $font-gabarito;
     }
-
     .border_form{
         width: 420px;
         margin-left: 15%;
-        
     }
     fieldset{
         font-size: 120%;
@@ -46,14 +44,12 @@
     .grid-item{
         margin: 5%;
     }
-
     .titulo-comentarios{
         font-size: 160%;
     }
     .comentarios{
         font-size: 140%;
     }
-
 }
 
 @media(width<900px){
@@ -76,7 +72,6 @@
     .historia{
         font-size: 110%;
     }
-    
     .border_form{
         width: 330px;
         margin-left: 5%;
@@ -129,7 +124,6 @@
         width: 280px;
         margin-left: -5%;
     }
-
     .unouno{
         margin-bottom: -200px;
         .mapouter{
@@ -137,8 +131,8 @@
             .gmap_canvas{
                 width: 60%;
                 height: 60%;
-    }
-    }
+            }
+        }
     }
 }
 
@@ -146,7 +140,6 @@
     .border_form{
         width: 450px;
         margin-left: 15%;
-        
     }
     fieldset{
         font-size: 120%;
@@ -156,8 +149,7 @@
         margin-bottom: 30px;
     }
     .imagen_border {
-    
-    margin-right: 30%;
+        margin-right: 30%;
     }
     .grid-item{
         margin: 5%;
@@ -166,9 +158,9 @@
     .img_nosotros{
         width: 50%;
     }
-
-
-    
+    .carousel-caption{
+        margin-bottom: 2%;
+    }
 }
 
 @media(width>1380px){
@@ -179,22 +171,20 @@
         width: 450px;
         margin-left: 25%;
     }
-
     .grid-item{
         margin: 5%;
     }
-
     .titulo-comentarios{
         font-size: 180%;
-        
-        
     }
     .comentarios{
         font-size: 160%;
-        
     }
     .img_nosotros{
         width: 45%;
+    }
+    .carousel-caption{
+        margin-bottom: 3%;
     }
 } 
 
@@ -208,22 +198,20 @@
         margin: 5%;
         margin-top: 10%;
     }
-
     .border_form{
         margin-left: 35%;
     }
     .img_nosotros{
         width: 40%;
     }
-    
+    .carousel-caption{
+        margin-bottom: 5%;
+    }
 }
 
 @media(width>500px){
-    
     .mapouter{
         margin-left: auto;
         margin-right: auto;
     }
-
-
 }
