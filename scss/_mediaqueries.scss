@@ -23,6 +23,26 @@
         margin-right: 40px;
         font-family: $font-gabarito;
     }
+
+    .border_form{
+        width: 420px;
+        margin-left: 15%;
+        
+    }
+    fieldset{
+        font-size: 120%;
+    }
+    legend{
+        font-size: 120%;
+        margin-bottom: 30px;
+    }
+    .imagen_border {
+    width: 29em;
+    margin-right: 30%;
+    }
+    .grid-item{
+        margin: 5%;
+    }
 }
 
 @media(width<900px){
@@ -112,8 +132,9 @@
 
 @media(width>1200px){
     .border_form{
-        width: 500px;
-        margin-left: 5%;
+        width: 450px;
+        margin-left: 15%;
+        
     }
     fieldset{
         font-size: 120%;
@@ -123,7 +144,8 @@
         margin-bottom: 30px;
     }
     .imagen_border {
-    width: 27em;
+    
+    margin-right: 30%;
     }
     .grid-item{
         margin: 5%;
@@ -135,8 +157,8 @@
         background-size: 100%;
     }
     .border_form{
-        width: 600px;
-        margin-left: 5%;
+        width: 450px;
+        margin-left: 25%;
     }
 
     .grid-item{
@@ -154,16 +176,19 @@
         margin: 5%;
         margin-top: 10%;
     }
-    .imagen_border {
-        width: 35em;
-        }
+
+    .border_form{
+        margin-left: 35%;
+    }
     
-        
-        .unouno{
-            margin-top: -5%;
-            margin-left: 10%;
-            .mapouter{
-                background-color: transparent;
-            }
-        }    
+}
+
+@media(width>500px){
+    
+    .mapouter{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
 }
