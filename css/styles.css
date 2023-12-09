@@ -188,6 +188,14 @@ h6 {
   margin: 30px;
 }
 
+.unouno .mapouter {
+  background-color: transparent;
+}
+.unouno .mapouter .gmap_canvas {
+  margin: 30px;
+  border-radius: 5%;
+}
+
 /* ---------------media queries----------- */
 @media (width < 370px) {
   section {
@@ -285,6 +293,16 @@ h6 {
     width: 280px;
     margin-left: -5%;
   }
+  .unouno {
+    margin-bottom: -200px;
+  }
+  .unouno .mapouter {
+    background-color: transparent;
+  }
+  .unouno .mapouter .gmap_canvas {
+    width: 60%;
+    height: 60%;
+  }
 }
 @media (width > 1200px) {
   .border_form {
@@ -292,14 +310,17 @@ h6 {
     margin-left: 5%;
   }
   fieldset {
-    font-size: 150%;
+    font-size: 120%;
   }
   legend {
-    font-size: 150%;
+    font-size: 120%;
     margin-bottom: 30px;
   }
   .imagen_border {
-    width: 36em;
+    width: 27em;
+  }
+  .grid-item {
+    margin: 5%;
   }
 }
 @media (width > 1380px) {
@@ -310,6 +331,9 @@ h6 {
     width: 600px;
     margin-left: 5%;
   }
+  .grid-item {
+    margin: 5%;
+  }
 }
 @media (width > 1580px) {
   .historia {
@@ -318,6 +342,17 @@ h6 {
   }
   .grid-item {
     margin: 5%;
+    margin-top: 10%;
+  }
+  .imagen_border {
+    width: 35em;
+  }
+  .unouno {
+    margin-top: -5%;
+    margin-left: 10%;
+  }
+  .unouno .mapouter {
+    background-color: transparent;
   }
 }
 

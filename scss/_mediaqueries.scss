@@ -97,6 +97,17 @@
         width: 280px;
         margin-left: -5%;
     }
+
+    .unouno{
+        margin-bottom: -200px;
+        .mapouter{
+            background-color: transparent;
+            .gmap_canvas{
+                width: 60%;
+                height: 60%;
+    }
+    }
+    }
 }
 
 @media(width>1200px){
@@ -105,14 +116,17 @@
         margin-left: 5%;
     }
     fieldset{
-        font-size: 150%;
+        font-size: 120%;
     }
     legend{
-        font-size: 150%;
+        font-size: 120%;
         margin-bottom: 30px;
     }
     .imagen_border {
-    width: 36em;
+    width: 27em;
+    }
+    .grid-item{
+        margin: 5%;
     }
 }
 
@@ -124,6 +138,10 @@
         width: 600px;
         margin-left: 5%;
     }
+
+    .grid-item{
+        margin: 5%;
+    }
 } 
 
 @media(width>1580px){
@@ -134,5 +152,18 @@
     }
     .grid-item{
         margin: 5%;
+        margin-top: 10%;
     }
+    .imagen_border {
+        width: 35em;
+        }
+    
+        
+        .unouno{
+            margin-top: -5%;
+            margin-left: 10%;
+            .mapouter{
+                background-color: transparent;
+            }
+        }    
 }
