@@ -6,6 +6,10 @@
         max-height: 200px; 
         max-width: 200px;
     }
+    em {
+        margin-left: 5px;
+        font-size: 28px;
+      }
 }
 
 @media(width>767px){
@@ -143,9 +147,10 @@
             }
         }
     }
-    header a div{
+    em{
         margin-left: 5px;
         font-size: 28px;
+        
     }
 }
 
