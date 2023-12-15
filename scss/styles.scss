@@ -2,8 +2,11 @@
 @import "./variables";
 
 
+
 body {
     background-image: linear-gradient(rgb(132, 130, 232),rgb(193, 192, 248));
+    overflow-x: hidden;
+    
     footer {
         color:$white;
         text-align: center;
@@ -67,7 +70,7 @@ textarea {
 }
 
 fieldset{   
-    width: 30%;
+    width: 25%;
 }
 
 .nav-item, .nav-link{
@@ -144,8 +147,10 @@ section {
 
 .imagen_border {
     border-radius: 5%;
-    margin-left: 10px;
-    width: 24.5em;
+    width: 23em;
+    margin-left: -5%;
+    
+    
 }
 
 .img_nosotros{
@@ -207,13 +212,16 @@ h6{
 .grid-container{
     display: grid  ;
     grid-template-columns: 1fr 1fr;
-    margin: 30px;
+    margin-top: 30px;
+    margin-left: 5%;
+    
 }
 
-.unouno{
+.formu{
     .mapouter{
         background-color: transparent;
         margin-bottom: 80px;
+        
 
         .gmap_canvas{
             margin: 30px;
@@ -221,6 +229,7 @@ h6{
         }
     }
 }
+
 
 .carousel-inner{
     margin-bottom: 5%;

@@ -4,6 +4,7 @@
 /*Fuentes*/
 body {
   background-image: linear-gradient(rgb(132, 130, 232), rgb(193, 192, 248));
+  overflow-x: hidden;
 }
 body footer {
   color: rgb(255, 255, 255);
@@ -57,7 +58,7 @@ textarea {
 }
 
 fieldset {
-  width: 30%;
+  width: 25%;
 }
 
 .nav-item, .nav-link {
@@ -137,8 +138,8 @@ section span {
 
 .imagen_border {
   border-radius: 5%;
-  margin-left: 10px;
-  width: 24.5em;
+  width: 23em;
+  margin-left: -5%;
 }
 
 .img_nosotros {
@@ -200,14 +201,15 @@ h6 {
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin: 30px;
+  margin-top: 30px;
+  margin-left: 5%;
 }
 
-.unouno .mapouter {
+.formu .mapouter {
   background-color: transparent;
   margin-bottom: 80px;
 }
-.unouno .mapouter .gmap_canvas {
+.formu .mapouter .gmap_canvas {
   margin: 30px;
   border-radius: 5%;
 }
@@ -276,11 +278,11 @@ em {
     margin-bottom: 30px;
   }
   .imagen_border {
-    width: 29em;
-    margin-right: 30%;
+    width: 24.5em;
   }
   .grid-item {
-    margin: 5%;
+    margin-top: 5%;
+    margin-left: 5%;
   }
   .titulo-comentarios {
     font-size: 160%;
@@ -334,7 +336,7 @@ em {
     margin-left: 7%;
   }
   .grid-item {
-    margin-left: 10vw;
+    margin-left: 5%;
   }
   .img_nosotros {
     width: 70%;
@@ -370,13 +372,13 @@ em {
     width: 280px;
     margin-left: -5%;
   }
-  .unouno {
+  .formu {
     margin-bottom: -200px;
   }
-  .unouno .mapouter {
+  .formu .mapouter {
     background-color: transparent;
   }
-  .unouno .mapouter .gmap_canvas {
+  .formu .mapouter .gmap_canvas {
     width: 60%;
     height: 60%;
   }
@@ -398,7 +400,7 @@ em {
     margin-bottom: 30px;
   }
   .imagen_border {
-    margin-right: 30%;
+    margin-right: 10%;
   }
   .grid-item {
     margin: 5%;
